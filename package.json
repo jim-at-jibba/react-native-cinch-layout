@@ -1,0 +1,41 @@
+{
+  "name": "cinch-layout",
+  "version": "0.0.1",
+  "description": "Making React Native layouts a cinch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-at-jibba/react-native-cinch-layout.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "Styled",
+    "Components"
+  ],
+  "author": "James Best",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jim-at-jibba/react-native-cinch-layout/issues"
+  },
+  "homepage": "https://github.com/jim-at-jibba/react-native-cinch-layout#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "prettier": "^1.16.4",
+    "react": "^16.8.1",
+    "react-native": "^0.58.4",
+    "styled-components": "^4.1.3"
+  }
+}
