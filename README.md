@@ -1,4 +1,5 @@
 <!-- Image here -->
+<img src="./cinch.png" alt='Cinch Logo'>
 
 [![NPM](https://nodei.co/npm/cinch-layout.png)](https://nodei.co/npm/cinch-layout/)
 
