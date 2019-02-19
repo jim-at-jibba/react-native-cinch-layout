@@ -7,7 +7,7 @@
 
 # Cinch
 
-Not ready to be used.
+This is a new package and so is in beta release. Please leave feed back in the issues secion on Github with any bugs or suggestions. Thanks
 
 ## Get Started
 
