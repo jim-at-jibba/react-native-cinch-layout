@@ -1,5 +1,5 @@
-import * as React from 'react'
-import { View, Text } from 'react-native'
+import * as React from 'react';
+import { View } from 'react-native';
 
 export class CinchProvider extends React.Component {
   render() {
@@ -7,6 +7,6 @@ export class CinchProvider extends React.Component {
       <View style={{ flex: 1, backgroundColor: 'white' }}>
         {this.props.children}
       </View>
-    )
+    );
   }
 }
