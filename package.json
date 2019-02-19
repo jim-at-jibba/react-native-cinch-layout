@@ -35,7 +35,9 @@
     "eslint-plugin-react-native": "^3.6.0",
     "prettier": "^1.16.4",
     "react": "^16.8.1",
-    "react-native": "^0.58.4",
+    "react-native": "^0.58.4"
+  },
+  "peerDependencies": {
     "styled-components": "^4.1.3"
   }
 }

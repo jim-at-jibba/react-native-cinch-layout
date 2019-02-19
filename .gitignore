@@ -2,3 +2,4 @@ node_modules
 tern-*
 tags
 tags.*
+.DS_Store
