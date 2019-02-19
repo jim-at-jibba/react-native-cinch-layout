@@ -1,6 +1,6 @@
 {
   "name": "cinch-layout",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1",
   "description": "Making React Native layouts a cinch",
   "main": "index.js",
   "scripts": {
