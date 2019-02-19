@@ -1,3 +1,5 @@
-import Provider from './components/Provider';
+import CinchProvider from './components/Provider';
+import CinchBounds from './components/Bounds';
+import CinchBox from './components/Box';
 
-export { Provider };
+export { CinchProvider, CinchBounds, CinchBox };

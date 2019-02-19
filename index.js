@@ -1,3 +1,3 @@
-import { Provider } from "./src";
+import { CinchProvider, CinchBounds, CinchBox } from './src';
 
-export { Provider };
+export { CinchProvider, CinchBounds, CinchBox };
