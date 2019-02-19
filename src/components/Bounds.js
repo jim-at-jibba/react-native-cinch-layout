@@ -1,7 +1,7 @@
-import * as React from "react";
-import styled from 'styled-components/native'
+import * as React from 'react';
+import styled from 'styled-components/native';
 import PropTypes from 'prop-types';
-import { flex, drawDebug } from "../helpers";
+import { flex, drawDebug } from '../helpers';
 
 export const CinchBounds = styled.View`
   ${props => props.debug && drawDebug()};
@@ -22,7 +22,7 @@ CinchBounds.propTypes = {
   /**
    * The primary axis the children should be in line with
    */
-  flexDirection: PropTypes.oneOf(["horizontal", "vertical"]),
+  flexDirection: PropTypes.oneOf(['horizontal', 'vertical']),
 
   /**
    * Whether children should wrap when there's no more room
@@ -33,17 +33,17 @@ CinchBounds.propTypes = {
   /**
    * Alignment of children along the vertical axis
    */
-  valign: PropTypes.oneOf(["top", "center", "bottom", null]),
+  valign: PropTypes.oneOf(['top', 'center', 'bottom', null]),
 
   /**
    * Alignment of children along the horizontal axis
    */
-  halign: PropTypes.oneOf(["left", "center", "right", null])
+  halign: PropTypes.oneOf(['left', 'center', 'right', null]),
 };
 
 CinchBounds.defaultProps = {
   flex: 1,
   debug: false,
-  flexDirection: "horizontal",
-  wrap: false
+  flexDirection: 'horizontal',
+  wrap: false,
 };
