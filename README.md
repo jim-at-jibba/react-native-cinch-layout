@@ -15,7 +15,7 @@ This is a new package and so is in beta release. Please leave feed back in the i
 
 The follow dependencies must be installed in your project in order for cinch to work.
 
-- [`styled-components`](https://github.com/styled-components/styled-components) 1.1.3 and up
+- [`styled-components`](https://github.com/styled-components/styled-components) 2.0.0 and up
 
 ### Installation
 
