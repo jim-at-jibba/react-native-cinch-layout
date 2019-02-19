@@ -1,6 +1,6 @@
 {
   "name": "cinch-layout",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.0",
   "description": "Making React Native layouts a cinch",
   "main": "index.js",
   "scripts": {
@@ -35,9 +35,13 @@
     "eslint-plugin-react-native": "^3.6.0",
     "prettier": "^1.16.4",
     "react": "^16.8.1",
-    "react-native": "^0.58.4"
+    "react-native": "^0.58.4",
+    "styled-components": "^4.1.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.0.0"
   },
   "peerDependencies": {
-    "styled-components": "^4.1.3"
+    "styled-components": "^2.0.0 || ^3.0.0 || ^4.0.0"
   }
 }

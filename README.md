@@ -11,6 +11,12 @@ Not ready to be used.
 
 ## Get Started
 
+## Requirements
+
+The follow dependencies must be installed in your project in order for cinch to work.
+
+- [`styled-components`](https://github.com/styled-components/styled-components) 1.1.3 and up
+
 ### Installation
 
 `npm install --save cinch-layout`
@@ -18,15 +24,15 @@ Not ready to be used.
 ### Usage
 
 ```js
-import { CinchProvider, CinchBounds, CinchBox } from "./src";
+import { CinchProvider, CinchBounds, CinchBox } from './src'
 
 export default class App extends Component {
   render() {
     return (
-      <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
         <CinchProvider>
-          <CinchBounds flex={1} debug flexDirection='vertical'>
-            <CinchBox debug style={{width: "50%"}}>
+          <CinchBounds flex={1} debug flexDirection="vertical">
+            <CinchBox debug style={{ width: '50%' }}>
               <Text>Hello</Text>
             </CinchBox>
 
@@ -37,19 +43,52 @@ export default class App extends Component {
             <CinchBox flex={1} debug={true}>
               <Text>Hello</Text>
             </CinchBox>
-
           </CinchBounds>
           <CinchBounds>
             <CinchBox debug valign={'center'} halign="right">
               <Text>Hello</Text>
             </CinchBox>
-            <CinchBox debug style={{marginHorizontal: 20}}>
+            <CinchBox debug style={{ marginHorizontal: 20 }}>
               <Text>Hello</Text>
             </CinchBox>
           </CinchBounds>
         </CinchProvider>
       </SafeAreaView>
-    );
+    )
   }
 }
 ```
+
+## Documentation
+
+All Components accept the following props. The `style` props can also be passed as usual
+which will overwrite any conflicting styles.
+
+### `CinchProvider`
+
+#### Props
+
+### `CinchBounds`
+
+#### Props
+
+- `debug` : `boolean`
+  - Outlines the grid system so you can visualize the layout
+- `flex`: `number` - structure: `2`
+  - Controls the CSS `flex` property
+- `flexDirection`: `string` - `horizontal` or `vertical`
+  - Sets the primary axis the children should be in line with
+- `wrap`: `boolean`
+  - Sets whether the children should wrap when there's no more room on the primary axis
+- `valign`: `string` - `top`, `center`, or `bottom`
+  - Alignment of children along the vertical axis
+- `halign`: `string` - `left`, `center`, or `right`
+  - Alignment of children along the horizontal axis
+
+### `CinchBox`
+
+#### Props
+
+- `debug` : `boolean`
+  - Outlines the grid system so you can visualize the layout
+- `flex`: `string` - structure: `grow shrink basis`
