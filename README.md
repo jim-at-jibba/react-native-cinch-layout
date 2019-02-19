@@ -18,7 +18,38 @@ Not ready to be used.
 ### Usage
 
 ```js
-import Cinch from "cinch-layout";
+import { CinchProvider, CinchBounds, CinchBox } from "./src";
 
-<Cinch.Provider />;
+export default class App extends Component {
+  render() {
+    return (
+      <SafeAreaView style={{flex: 1, backgroundColor: 'white'}}>
+        <CinchProvider>
+          <CinchBounds flex={1} debug flexDirection='vertical'>
+            <CinchBox debug style={{width: "50%"}}>
+              <Text>Hello</Text>
+            </CinchBox>
+
+            <CinchBox flex={2} debug={true}>
+              <Text>Hello</Text>
+            </CinchBox>
+
+            <CinchBox flex={1} debug={true}>
+              <Text>Hello</Text>
+            </CinchBox>
+
+          </CinchBounds>
+          <CinchBounds>
+            <CinchBox debug valign={'center'} halign="right">
+              <Text>Hello</Text>
+            </CinchBox>
+            <CinchBox debug style={{marginHorizontal: 20}}>
+              <Text>Hello</Text>
+            </CinchBox>
+          </CinchBounds>
+        </CinchProvider>
+      </SafeAreaView>
+    );
+  }
+}
 ```
