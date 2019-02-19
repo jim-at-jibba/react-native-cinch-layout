@@ -23,6 +23,7 @@ module.exports = {
     'react/require-default-props': WARNING,
     'no-unused-expressions': OFF,
     'no-use-before-define': OFF,
+    'import/prefer-default-export': false,
     'prettier/prettier': [
       'error',
       {
