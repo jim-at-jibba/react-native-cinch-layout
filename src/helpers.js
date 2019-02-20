@@ -1,23 +1,5 @@
 import React from "react";
-/**
- * Returns an array of valid css declarations generated
- * from the react props supplied.
- *
- * @param {array} props list of react props
- */
-export const generateStyles = props => {
-  console.log("GEN", props)
-  return [
-    props.padding && `padding: ${props.padding};`,
-    props.margin && `margin: ${props.margin};`,
-    props.width && `width: ${props.width};`,
-    props.height && `height: ${props.height};`,
-    props.color && `color: ${props.color};`,
-    props.background && `background: ${props.background};`,
-    //props.border && `border: ${props.border};`,
-  ];
 
-}
 export const drawDebug = () => [
   "background: rgba(0, 255, 255, 0.1);",
   "border: 1px dashed rgba(255, 0, 255, 1);",
