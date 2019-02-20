@@ -28,9 +28,11 @@ The follow dependencies must be installed in your project in order for cinch to 
 ### Usage
 
 ```js
-import { CinchProvider, CinchBounds, CinchBox } from './src'
+import * as React from 'react';
+import { SafeAreaView, Text } from 'react-native';
+import { CinchProvider, CinchBounds, CinchBox } from 'cinch-layout'
 
-export default class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
       <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
