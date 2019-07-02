@@ -1,6 +1,6 @@
 {
   "name": "cinch-layout",
-  "version": "0.0.7",
+  "version": "0.0.12",
   "description": "Making React Native layouts a cinch",
   "main": "index.js",
   "types": "index.d.ts",
@@ -44,6 +44,6 @@
     "prop-types": "^15.0.0"
   },
   "peerDependencies": {
-    "styled-components": "^2.0.0 || ^3.0.0 || ^4.0.0"
+    "styled-components": "^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
   }
 }

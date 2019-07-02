@@ -1,10 +1,11 @@
 import * as React from 'react'
+import { ViewProps } from 'react-native'
 
 export interface CinchBoundsProps {
   /**
    * Enable if you want the geometry of the grid exposed
    */
-  debug: boolean
+  debug?: boolean
 
   /**
    * Interface for setting the `flex` css property
@@ -45,5 +46,8 @@ export interface CinchBoxProps {
   flex?: number
 }
 
-export class CinchBounds extends React.Component<CinchBoundsProps> {}
-export class CinchBox extends React.Component<CinchBoxProps> {
+export class CinchProvider extends React.Component<{} & ViewProps> {}
+export class CinchBounds extends React.Component<
+  CinchBoundsProps & ViewProps
+> {}
+export class CinchBox extends React.Component<CinchBoxProps & ViewProps> {}
