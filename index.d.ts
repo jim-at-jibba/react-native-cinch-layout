@@ -44,6 +44,16 @@ export interface CinchBoxProps {
    * Interface for setting the `flex` css property
    */
   flex?: number
+
+  /**
+   * Alignment of children along the vertical axis
+   */
+  valign?: 'top' | 'center' | 'bottom'
+
+  /**
+   * Alignment of children along the horizontal axis
+   */
+  halign?: 'left' | 'center' | 'right'
 }
 
 export class CinchProvider extends React.Component<{} & ViewProps> {}
