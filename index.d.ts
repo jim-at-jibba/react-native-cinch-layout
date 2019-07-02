@@ -46,4 +46,4 @@ export interface CinchBoxProps {
 }
 
 export class CinchBounds extends React.Component<CinchBoundsProps> {}
-export class Box extends React.Component<CinchBoxProps> {
+export class CinchBox extends React.Component<CinchBoxProps> {
