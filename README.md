@@ -11,13 +11,13 @@ Simplifying React Native Flexbox layouts.
 
 [Hedron](https://github.com/garetmckinley/hedron) inspired layout library using styled components.
 
-This is a new package and so is in beta release. Please leave feed back in the issues secion on Github with any bugs or suggestions. Thanks
+This is a new package and so is in beta release. Please leave feedback in the issues section on GitHub with any bugs or suggestions. Thanks
 
 ## Get Started
 
 ## Requirements
 
-The follow dependencies must be installed in your project in order for cinch to work.
+The following dependencies must be installed in your project in order for cinch to work.
 
 - [`styled-components`](https://github.com/styled-components/styled-components) 2.0.0 and up
 
