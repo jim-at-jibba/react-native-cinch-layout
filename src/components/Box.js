@@ -21,6 +21,5 @@ CinchBox.propTypes = {
 };
 
 CinchBox.defaultProps = {
-  flex: 1,
   debug: false,
 };
